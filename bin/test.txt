@@ -1,0 +1,309 @@
+18:01:09,745 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+18:01:09,745 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+18:01:09,745 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/home/suraj/kafka-manager-1.3.3.16/conf/logback.xml]
+18:01:09,993 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+18:01:09,995 |-INFO in ch.qos.logback.core.joran.action.ConversionRuleAction - registering conversion word coloredLevel with class [play.api.Logger$ColoredLevel]
+18:01:09,995 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+18:01:10,014 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FILE]
+18:01:10,095 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+18:01:10,127 |-ERROR in ch.qos.logback.core.joran.spi.Interpreter@18:27 - no applicable action for [totalSizeCap], current ElementPath  is [[configuration][appender][rollingPolicy][totalSizeCap]]
+18:01:10,130 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - No compression will be used
+18:01:10,131 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy - Will use the pattern application.home_IS_UNDEFINED/logs/application.%d{yyyy-MM-dd}.log for the active file
+18:01:10,134 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - The date pattern is 'yyyy-MM-dd' from file name pattern 'application.home_IS_UNDEFINED/logs/application.%d{yyyy-MM-dd}.log'.
+18:01:10,134 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Roll-over at midnight.
+18:01:10,147 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Setting initial period to Wed May 09 18:01:10 IST 2018
+18:01:10,149 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - Active log file name: application.home_IS_UNDEFINED/logs/application.log
+18:01:10,149 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - File property is set to [application.home_IS_UNDEFINED/logs/application.log]
+18:01:10,169 |-ERROR in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - Failed to create parent directories for [/home/suraj/kafka-manager-1.3.3.16/application.home_IS_UNDEFINED/logs/application.log]
+18:01:10,170 |-ERROR in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - openFile(application.home_IS_UNDEFINED/logs/application.log,true) call failed. java.io.FileNotFoundException: application.home_IS_UNDEFINED/logs/application.log (No such file or directory)
+	at java.io.FileNotFoundException: application.home_IS_UNDEFINED/logs/application.log (No such file or directory)
+	at 	at java.io.FileOutputStream.open0(Native Method)
+	at 	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at 	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at 	at ch.qos.logback.core.recovery.ResilientFileOutputStream.<init>(ResilientFileOutputStream.java:28)
+	at 	at ch.qos.logback.core.FileAppender.openFile(FileAppender.java:148)
+	at 	at ch.qos.logback.core.FileAppender.start(FileAppender.java:108)
+	at 	at ch.qos.logback.core.rolling.RollingFileAppender.start(RollingFileAppender.java:86)
+	at 	at ch.qos.logback.core.joran.action.AppenderAction.end(AppenderAction.java:96)
+	at 	at ch.qos.logback.core.joran.spi.Interpreter.callEndAction(Interpreter.java:317)
+	at 	at ch.qos.logback.core.joran.spi.Interpreter.endElement(Interpreter.java:196)
+	at 	at ch.qos.logback.core.joran.spi.Interpreter.endElement(Interpreter.java:182)
+	at 	at ch.qos.logback.core.joran.spi.EventPlayer.play(EventPlayer.java:62)
+	at 	at ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:149)
+	at 	at ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:135)
+	at 	at ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:99)
+	at 	at ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:49)
+	at 	at ch.qos.logback.classic.util.ContextInitializer.configureByResource(ContextInitializer.java:77)
+	at 	at ch.qos.logback.classic.util.ContextInitializer.autoConfig(ContextInitializer.java:152)
+	at 	at org.slf4j.impl.StaticLoggerBinder.init(StaticLoggerBinder.java:85)
+	at 	at org.slf4j.impl.StaticLoggerBinder.<clinit>(StaticLoggerBinder.java:55)
+	at 	at org.slf4j.LoggerFactory.bind(LoggerFactory.java:150)
+	at 	at org.slf4j.LoggerFactory.performInitialization(LoggerFactory.java:124)
+	at 	at org.slf4j.LoggerFactory.getILoggerFactory(LoggerFactory.java:412)
+	at 	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:357)
+	at 	at akka.event.slf4j.Logger$.apply(Slf4jLogger.scala:30)
+	at 	at akka.event.slf4j.SLF4JLogging$class.log(Slf4jLogger.scala:19)
+	at 	at akka.event.slf4j.Slf4jLogger.log$lzycompute(Slf4jLogger.scala:54)
+	at 	at akka.event.slf4j.Slf4jLogger.log(Slf4jLogger.scala:54)
+	at 	at akka.event.slf4j.Slf4jLogger$$anonfun$receive$1.applyOrElse(Slf4jLogger.scala:80)
+	at 	at akka.actor.Actor$class.aroundReceive(Actor.scala:467)
+	at 	at akka.event.slf4j.Slf4jLogger.aroundReceive(Slf4jLogger.scala:54)
+	at 	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:516)
+	at 	at akka.actor.ActorCell.invoke(ActorCell.scala:487)
+	at 	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:238)
+	at 	at akka.dispatch.Mailbox.run(Mailbox.scala:220)
+	at 	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:397)
+	at 	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at 	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at 	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at 	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+18:01:10,170 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+18:01:10,171 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+18:01:10,173 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+18:01:10,184 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.classic.AsyncAppender]
+18:01:10,186 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [ASYNCFILE]
+18:01:10,186 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE] to ch.qos.logback.classic.AsyncAppender[ASYNCFILE]
+18:01:10,186 |-INFO in ch.qos.logback.classic.AsyncAppender[ASYNCFILE] - Attaching appender named [FILE] to AsyncAppender.
+18:01:10,186 |-INFO in ch.qos.logback.classic.AsyncAppender[ASYNCFILE] - Setting discardingThreshold to 51
+18:01:10,187 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.classic.AsyncAppender]
+18:01:10,187 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [ASYNCSTDOUT]
+18:01:10,187 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to ch.qos.logback.classic.AsyncAppender[ASYNCSTDOUT]
+18:01:10,187 |-INFO in ch.qos.logback.classic.AsyncAppender[ASYNCSTDOUT] - Attaching appender named [STDOUT] to AsyncAppender.
+18:01:10,187 |-INFO in ch.qos.logback.classic.AsyncAppender[ASYNCSTDOUT] - Setting discardingThreshold to 51
+18:01:10,187 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [play] to INFO
+18:01:10,187 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [application] to INFO
+18:01:10,187 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [kafka.manager] to INFO
+18:01:10,187 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.avaje.ebean.config.PropertyMapLoader] to OFF
+18:01:10,188 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.avaje.ebeaninternal.server.core.XmlConfigLoader] to OFF
+18:01:10,188 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.avaje.ebeaninternal.server.lib.BackgroundThread] to OFF
+18:01:10,188 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.gargoylesoftware.htmlunit.javascript] to OFF
+18:01:10,188 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.zookeeper] to INFO
+18:01:10,188 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to WARN
+18:01:10,188 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [ASYNCFILE] to Logger[ROOT]
+18:01:10,188 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [ASYNCSTDOUT] to Logger[ROOT]
+18:01:10,188 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+18:01:10,189 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@2bd0db54 - Registering current configuration as safe fallback point
+
+[[33mwarn[0m] o.a.c.r.ExponentialBackoffRetry - maxRetries too large (100). Pinning to 29
+[[37minfo[0m] k.m.a.KafkaManagerActor - Starting curator...
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:host.name=SEZ-DESK-177-Linux
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:java.version=1.8.0_161
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:java.vendor=Oracle Corporation
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:java.home=/usr/lib/jvm/java-8-oracle/jre
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:java.class.path=/home/suraj/kafka-manager-1.3.3.16/lib/../conf/:/home/suraj/kafka-manager-1.3.3.16/lib/kafka-manager.kafka-manager-1.3.3.16-sans-externalized.jar:/home/suraj/kafka-manager-1.3.3.16/lib/org.scala-lang.scala-library-2.11.8.jar:/home/suraj/kafka-manager-1.3.3.16/lib/com.typesafe.play.twirl-api_2.11-1.1.1.jar:/home/suraj/kafka-manager-1.3.3.16/lib/org.apache.commons.commons-lang3-3.4.jar:/home/suraj/kafka-manager-1.3.3.16/lib/com.typesafe.play.play-server_2.11-2.4.6.jar:/home/suraj/kafka-manager-1.3.3.16/lib/com.typesafe.play.play_2.11-2.4.6.jar:/home/suraj/kafka-manager-1.3.3.16/lib/com.typesafe.play.build-link-2.4.6.jar:/home/suraj/kafka-manager-1.3.3.16/lib/com.typesafe.play.play-exceptions-2.4.6.jar:/home/suraj/kafka-manager-1.3.3.16/lib/org.javassist.javassist-3.19.0-GA.jar:/home/suraj/kafka-manager-1.3.3.16/lib/com.typesafe.play.play-iteratees_2.11-2.4.6.jar:/home/suraj/kafka-manager-1.3.3.16/lib/org.scala-stm.scala-stm_2.11-0.7.jar:/home/suraj/kafka-manager-1.3.3.16/lib/com.typesafe.config-1.3.0.jar:/home/suraj/kafka-manager-1.3.3.16/lib/com.typesafe.play.play-json_2.11-2.4.6.jar:/home/suraj/kafka-manager-1.3.3.16/lib/com.typesafe.play.play-functional_2.11-2.4.6.jar:/home/suraj/kafka-manager-1.3.3.16/lib/com.typesafe.play.play-datacommons_2.11-2.4.6.jar:/home/suraj/kafka-manager-1.3.3.16/lib/joda-time.joda-time-2.8.1.jar:/home/suraj/kafka-manager-1.3.3.16/lib/org.joda.joda-convert-1.7.jar:/home/suraj/kafka-manager-1.3.3.16/lib/com.fasterxml.jackson.datatype.jackson-datatype-jdk8-2.5.4.jar:/home/suraj/kafka-manager-1.3.3.16/lib/com.fasterxml.jackson.datatype.jackson-datatype-jsr310-2.5.4.jar:/home/suraj/kafka-manager-1.3.3.16/lib/com.typesafe.play.play-netty-utils-2.4.6.jar:/home/suraj/kafka-manager-1.3.3.16/lib/org.slf4j.jul-to-slf4j-1.7.12.jar:/home/suraj/kafka-manager-1.3.3.16/lib/org.slf4j.jcl-over-slf4j-1.7.12.jar:/home/suraj/kafka-manager-1.3.3.16/lib/ch.qos.logback.logback-core-1.1.3.jar:/home/suraj/kafka-manager-1.3.3.16/lib/ch.qos.logback.logback-classic-1.1.3.jar:/home/suraj/kafka-manager-1.3.3.16/lib/com.typesafe.akka.akka-actor_2.11-2.3.14.jar:/home/suraj/kafka-manager-1.3.3.16/lib/com.typesafe.akka.akka-slf4j_2.11-2.3.14.jar:/home/suraj/kafka-manager-1.3.3.16/lib/commons-codec.commons-codec-1.10.jar:/home/suraj/kafka-manager-1.3.3.16/lib/xerces.xercesImpl-2.11.0.jar:/home/suraj/kafka-manager-1.3.3.16/lib/xml-apis.xml-apis-1.4.01.jar:/home/suraj/kafka-manager-1.3.3.16/lib/javax.transaction.jta-1.1.jar:/home/suraj/kafka-manager-1.3.3.16/lib/com.google.inject.guice-4.0.jar:/home/suraj/kafka-manager-1.3.3.16/lib/javax.inject.javax.inject-1.jar:/home/suraj/kafka-manager-1.3.3.16/lib/aopalliance.aopalliance-1.0.jar:/home/suraj/kafka-manager-1.3.3.16/lib/com.google.guava.guava-16.0.1.jar:/home/suraj/kafka-manager-1.3.3.16/lib/com.google.inject.extensions.guice-assistedinject-4.0.jar:/home/suraj/kafka-manager-1.3.3.16/lib/com.typesafe.play.play-netty-server_2.11-2.4.6.jar:/home/suraj/kafka-manager-1.3.3.16/lib/io.netty.netty-3.10.4.Final.jar:/home/suraj/kafka-manager-1.3.3.16/lib/com.typesafe.netty.netty-http-pipelining-1.1.4.jar:/home/suraj/kafka-manager-1.3.3.16/lib/com.google.code.findbugs.jsr305-2.0.1.jar:/home/suraj/kafka-manager-1.3.3.16/lib/org.webjars.webjars-play_2.11-2.4.0-2.jar:/home/suraj/kafka-manager-1.3.3.16/lib/org.webjars.requirejs-2.1.20.jar:/home/suraj/kafka-manager-1.3.3.16/lib/org.webjars.webjars-locator-0.28.jar:/home/suraj/kafka-manager-1.3.3.16/lib/org.webjars.webjars-locator-core-0.27.jar:/home/suraj/kafka-manager-1.3.3.16/lib/org.apache.commons.commons-compress-1.9.jar:/home/suraj/kafka-manager-1.3.3.16/lib/org.webjars.npm.validate.js-0.8.0.jar:/home/suraj/kafka-manager-1.3.3.16/lib/org.webjars.bootstrap-3.3.5.jar:/home/suraj/kafka-manager-1.3.3.16/lib/org.webjars.jquery-2.1.4.jar:/home/suraj/kafka-manager-1.3.3.16/lib/org.webjars.backbonejs-1.2.3.jar:/home/suraj/kafka-manager-1.3.3.16/lib/org.webjars.underscorejs-1.8.3.jar:/home/suraj/kafka-manager-1.3.3.16/lib/org.webjars.dustjs-linkedin-2.6.1-1.jar:/home/suraj/kafka-manager-1.3.3.16/lib/org.webjars.json-20121008-1.jar:/home/suraj/kafka-manager-1.3.3.16/lib/org.apache.curator.curator-framework-2.10.0.jar:/home/suraj/kafka-manager-1.3.3.16/lib/org.apache.curator.curator-client-2.10.0.jar:/home/suraj/kafka-manager-1.3.3.16/lib/org.apache.zookeeper.zookeeper-3.4.6.jar:/home/suraj/kafka-manager-1.3.3.16/lib/jline.jline-0.9.94.jar:/home/suraj/kafka-manager-1.3.3.16/lib/org.apache.curator.curator-recipes-2.10.0.jar:/home/suraj/kafka-manager-1.3.3.16/lib/org.json4s.json4s-jackson_2.11-3.4.0.jar:/home/suraj/kafka-manager-1.3.3.16/lib/org.json4s.json4s-core_2.11-3.4.0.jar:/home/suraj/kafka-manager-1.3.3.16/lib/org.json4s.json4s-ast_2.11-3.4.0.jar:/home/suraj/kafka-manager-1.3.3.16/lib/org.json4s.json4s-scalap_2.11-3.4.0.jar:/home/suraj/kafka-manager-1.3.3.16/lib/com.thoughtworks.paranamer.paranamer-2.8.jar:/home/suraj/kafka-manager-1.3.3.16/lib/org.scala-lang.modules.scala-xml_2.11-1.0.5.jar:/home/suraj/kafka-manager-1.3.3.16/lib/com.fasterxml.jackson.core.jackson-databind-2.6.7.jar:/home/suraj/kafka-manager-1.3.3.16/lib/com.fasterxml.jackson.core.jackson-annotations-2.6.0.jar:/home/suraj/kafka-manager-1.3.3.16/lib/com.fasterxml.jackson.core.jackson-core-2.6.7.jar:/home/suraj/kafka-manager-1.3.3.16/lib/org.json4s.json4s-scalaz_2.11-3.4.0.jar:/home/suraj/kafka-manager-1.3.3.16/lib/org.scalaz.scalaz-core_2.11-7.2.4.jar:/home/suraj/kafka-manager-1.3.3.16/lib/org.slf4j.log4j-over-slf4j-1.7.12.jar:/home/suraj/kafka-manager-1.3.3.16/lib/com.adrianhurt.play-bootstrap3_2.11-0.4.5-P24.jar:/home/suraj/kafka-manager-1.3.3.16/lib/org.clapper.grizzled-slf4j_2.11-1.0.2.jar:/home/suraj/kafka-manager-1.3.3.16/lib/org.apache.kafka.kafka_2.11-0.10.0.1.jar:/home/suraj/kafka-manager-1.3.3.16/lib/com.101tec.zkclient-0.8.jar:/home/suraj/kafka-manager-1.3.3.16/lib/com.yammer.metrics.metrics-core-2.2.0.jar:/home/suraj/kafka-manager-1.3.3.16/lib/org.scala-lang.modules.scala-parser-combinators_2.11-1.0.4.jar:/home/suraj/kafka-manager-1.3.3.16/lib/net.sf.jopt-simple.jopt-simple-4.9.jar:/home/suraj/kafka-manager-1.3.3.16/lib/org.apache.kafka.kafka-clients-0.10.0.1.jar:/home/suraj/kafka-manager-1.3.3.16/lib/net.jpountz.lz4.lz4-1.3.0.jar:/home/suraj/kafka-manager-1.3.3.16/lib/org.xerial.snappy.snappy-java-1.1.2.6.jar:/home/suraj/kafka-manager-1.3.3.16/lib/org.slf4j.slf4j-api-1.7.21.jar:/home/suraj/kafka-manager-1.3.3.16/lib/com.beachape.enumeratum_2.11-1.4.4.jar:/home/suraj/kafka-manager-1.3.3.16/lib/com.beachape.enumeratum-macros_2.11-1.4.4.jar:/home/suraj/kafka-manager-1.3.3.16/lib/org.scala-lang.scala-reflect-2.11.8.jar:/home/suraj/kafka-manager-1.3.3.16/lib/kafka-manager.kafka-manager-1.3.3.16-assets.jar
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:java.io.tmpdir=/tmp
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:java.compiler=<NA>
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:os.name=Linux
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:os.arch=amd64
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:os.version=4.13.0-39-generic
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:user.name=root
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:user.home=/root
+[[37minfo[0m] o.a.z.ZooKeeper - Client environment:user.dir=/home/suraj/kafka-manager-1.3.3.16
+[[37minfo[0m] o.a.z.ZooKeeper - Initiating client connection, connectString=172.52.110.28:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@90d59c4
+[[37minfo[0m] k.m.a.KafkaManagerActor - zk=172.52.110.28:2181
+[[37minfo[0m] k.m.a.KafkaManagerActor - baseZkPath=/kafka-manager
+[[37minfo[0m] o.a.z.ClientCnxn - Opening socket connection to server 172.52.110.28/172.52.110.28:2181. Will not attempt to authenticate using SASL (unknown error)
+[[37minfo[0m] o.a.z.ClientCnxn - Socket connection established to 172.52.110.28/172.52.110.28:2181, initiating session
+[[37minfo[0m] o.a.z.ClientCnxn - Session establishment complete on server 172.52.110.28/172.52.110.28:2181, sessionid = 0x1632ab0d0730017, negotiated timeout = 40000
+[[37minfo[0m] k.m.a.DeleteClusterActor - Started actor akka://kafka-manager-system/user/kafka-manager/delete-cluster
+[[37minfo[0m] k.m.a.KafkaManagerActor - Started actor akka://kafka-manager-system/user/kafka-manager
+[[37minfo[0m] k.m.a.KafkaManagerActor - Starting delete clusters path cache...
+[[37minfo[0m] k.m.a.DeleteClusterActor - Starting delete clusters path cache...
+[[37minfo[0m] k.m.a.DeleteClusterActor - Adding kafka manager path cache listener...
+[[37minfo[0m] k.m.a.DeleteClusterActor - Scheduling updater for 10 seconds
+[[37minfo[0m] k.m.a.KafkaManagerActor - Starting kafka manager path cache...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Adding kafka manager path cache listener...
+[[37minfo[0m] play.api.Play - Application started (Prod)
+[[37minfo[0m] p.c.s.NettyServer - Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...
+[[37minfo[0m] k.m.a.KafkaManagerActor - Adding new cluster manager for cluster : AscendLearning
+[[33mwarn[0m] o.a.c.r.ExponentialBackoffRetry - maxRetries too large (100). Pinning to 29
+[[37minfo[0m] o.a.z.ZooKeeper - Initiating client connection, connectString=172.52.110.28:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@35998564
+[[37minfo[0m] k.m.a.c.ClusterManagerActor - Starting curator...
+[[37minfo[0m] o.a.z.ClientCnxn - Opening socket connection to server 172.52.110.28/172.52.110.28:2181. Will not attempt to authenticate using SASL (unknown error)
+[[37minfo[0m] o.a.z.ClientCnxn - Socket connection established to 172.52.110.28/172.52.110.28:2181, initiating session
+[[33mwarn[0m] o.a.c.r.ExponentialBackoffRetry - maxRetries too large (100). Pinning to 29
+[[37minfo[0m] k.m.a.c.ClusterManagerActor - Starting shared curator...
+[[37minfo[0m] o.a.z.ZooKeeper - Initiating client connection, connectString=172.52.110.28:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@58bb0238
+[[37minfo[0m] o.a.z.ClientCnxn - Opening socket connection to server 172.52.110.28/172.52.110.28:2181. Will not attempt to authenticate using SASL (unknown error)
+[[37minfo[0m] o.a.z.ClientCnxn - Socket connection established to 172.52.110.28/172.52.110.28:2181, initiating session
+[[37minfo[0m] o.a.z.ClientCnxn - Session establishment complete on server 172.52.110.28/172.52.110.28:2181, sessionid = 0x1632ab0d0730018, negotiated timeout = 40000
+[[37minfo[0m] o.a.z.ClientCnxn - Session establishment complete on server 172.52.110.28/172.52.110.28:2181, sessionid = 0x1632ab0d0730019, negotiated timeout = 40000
+[[37minfo[0m] k.m.a.c.KafkaCommandActor - Started actor akka://kafka-manager-system/user/kafka-manager/AscendLearning/kafka-command
+[[37minfo[0m] k.m.a.c.KafkaAdminClientActor - KafkaAdminClientActorConfig(ClusterContext(ClusterFeatures(Set(KMJMXMetricsFeature, KMDisplaySizeFeature, KMDeleteTopicFeature, KMPollConsumersFeature)),ClusterConfig(AscendLearning,CuratorConfig(172.52.110.28:2181,100,100,1000),true,0.11.0.0,true,None,None,false,true,true,false,true,true,Some(ClusterTuning(Some(30),Some(2),Some(100),Some(2),Some(100),Some(2),Some(100),Some(30),Some(5),Some(4),Some(1000),Some(4),Some(1000),Some(4),Some(1000))),PLAINTEXT)),LongRunningPoolConfig(4,1000),akka://kafka-manager-system/user/kafka-manager/AscendLearning/kafka-state,None)
+[[37minfo[0m] k.m.a.c.ClusterManagerActor - Started actor akka://kafka-manager-system/user/kafka-manager/AscendLearning
+[[37minfo[0m] k.m.a.c.ClusterManagerActor - Starting cluster manager topics path cache...
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Started actor akka://kafka-manager-system/user/kafka-manager/AscendLearning/broker-view
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Scheduling updater for 30 seconds
+[[37minfo[0m] k.m.a.c.BrokerViewCacheActor - Updating broker view...
+[[37minfo[0m] k.m.a.c.KafkaStateActor - KafkaStateActorConfig(org.apache.curator.framework.imps.CuratorFrameworkImpl@74c18958,pinned-dispatcher,ClusterContext(ClusterFeatures(Set(KMJMXMetricsFeature, KMDisplaySizeFeature, KMDeleteTopicFeature, KMPollConsumersFeature)),ClusterConfig(AscendLearning,CuratorConfig(172.52.110.28:2181,100,100,1000),true,0.11.0.0,true,None,None,false,true,true,false,true,true,Some(ClusterTuning(Some(30),Some(2),Some(100),Some(2),Some(100),Some(2),Some(100),Some(30),Some(5),Some(4),Some(1000),Some(4),Some(1000),Some(4),Some(1000))),PLAINTEXT)),LongRunningPoolConfig(4,1000),LongRunningPoolConfig(4,1000),5,10000,None)
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Started actor akka://kafka-manager-system/user/kafka-manager/AscendLearning/kafka-state
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Starting topics tree cache...
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Starting topics config path cache...
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Starting brokers path cache...
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Starting admin path cache...
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Starting delete topics path cache...
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Adding topics tree cache listener...
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Adding admin path cache listener...
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Starting offset cache...
+[[37minfo[0m] k.m.a.c.OffsetCacheActive - Starting kafka managed offset cache ...
+[[37minfo[0m] k.m.a.c.OffsetCacheActive - Starting consumers tree cache...
+[[37minfo[0m] k.m.a.c.OffsetCacheActive - Adding consumers tree cache listener...
+[[37minfo[0m] k.m.a.c.KafkaStateActor - Starting kafka managed Topic Offset Getter ...
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - Constructing new kafka consumer client using these properties: 
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - key.deserializer=org.apache.kafka.common.serialization.ByteArrayDeserializer
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - auto.offset.reset=latest
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - bootstrap.servers=172.52.110.25:9092,172.52.110.28:9092
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - enable.auto.commit=false
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - group.id=KMOffsetCache-SEZ-DESK-177-Linux
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - value.deserializer=org.apache.kafka.common.serialization.ByteArrayDeserializer
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - exclude.internal.topics=false
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - security.protocol=PLAINTEXT
+[[37minfo[0m] k.m.a.c.KafkaManagedOffsetCache - Consumer created for kafka offset topic consumption for cluster AscendLearning
+[[31merror[0m] k.m.j.KafkaJMX$ - Failed to connect to service:jmx:rmi:///jndi/rmi://172.52.110.25:-1/jmxrmi
+java.lang.IllegalArgumentException: requirement failed: No jmx port but jmx polling enabled!
+	at scala.Predef$.require(Predef.scala:224) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.jmx.KafkaJMX$.doWithConnection(KafkaJMX.scala:39) ~[kafka-manager.kafka-manager-1.3.3.16-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.BrokerViewCacheActor$$anonfun$kafka$manager$actor$cluster$BrokerViewCacheActor$$updateTopicMetrics$1$$anonfun$apply$24$$anonfun$apply$25$$anonfun$apply$2.apply$mcV$sp(BrokerViewCacheActor.scala:326) [kafka-manager.kafka-manager-1.3.3.16-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.BrokerViewCacheActor$$anonfun$kafka$manager$actor$cluster$BrokerViewCacheActor$$updateTopicMetrics$1$$anonfun$apply$24$$anonfun$apply$25$$anonfun$apply$2.apply(BrokerViewCacheActor.scala:323) [kafka-manager.kafka-manager-1.3.3.16-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.BrokerViewCacheActor$$anonfun$kafka$manager$actor$cluster$BrokerViewCacheActor$$updateTopicMetrics$1$$anonfun$apply$24$$anonfun$apply$25$$anonfun$apply$2.apply(BrokerViewCacheActor.scala:323) [kafka-manager.kafka-manager-1.3.3.16-sans-externalized.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) [org.scala-lang.scala-library-2.11.8.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) [org.scala-lang.scala-library-2.11.8.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_161]
+[[31merror[0m] k.m.j.KafkaJMX$ - Failed to connect to service:jmx:rmi:///jndi/rmi://172.52.110.25:-1/jmxrmi
+java.lang.IllegalArgumentException: requirement failed: No jmx port but jmx polling enabled!
+	at scala.Predef$.require(Predef.scala:224) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.jmx.KafkaJMX$.doWithConnection(KafkaJMX.scala:39) ~[kafka-manager.kafka-manager-1.3.3.16-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.BrokerViewCacheActor$$anonfun$kafka$manager$actor$cluster$BrokerViewCacheActor$$updateBrokerMetrics$1$$anonfun$apply$27$$anonfun$apply$3.apply$mcV$sp(BrokerViewCacheActor.scala:358) [kafka-manager.kafka-manager-1.3.3.16-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.BrokerViewCacheActor$$anonfun$kafka$manager$actor$cluster$BrokerViewCacheActor$$updateBrokerMetrics$1$$anonfun$apply$27$$anonfun$apply$3.apply(BrokerViewCacheActor.scala:355) [kafka-manager.kafka-manager-1.3.3.16-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.BrokerViewCacheActor$$anonfun$kafka$manager$actor$cluster$BrokerViewCacheActor$$updateBrokerMetrics$1$$anonfun$apply$27$$anonfun$apply$3.apply(BrokerViewCacheActor.scala:355) [kafka-manager.kafka-manager-1.3.3.16-sans-externalized.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) [org.scala-lang.scala-library-2.11.8.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) [org.scala-lang.scala-library-2.11.8.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_161]
+[[31merror[0m] k.m.j.KafkaJMX$ - Failed to connect to service:jmx:rmi:///jndi/rmi://172.52.110.28:-1/jmxrmi
+java.lang.IllegalArgumentException: requirement failed: No jmx port but jmx polling enabled!
+	at scala.Predef$.require(Predef.scala:224) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.jmx.KafkaJMX$.doWithConnection(KafkaJMX.scala:39) ~[kafka-manager.kafka-manager-1.3.3.16-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.BrokerViewCacheActor$$anonfun$kafka$manager$actor$cluster$BrokerViewCacheActor$$updateTopicMetrics$1$$anonfun$apply$24$$anonfun$apply$25$$anonfun$apply$2.apply$mcV$sp(BrokerViewCacheActor.scala:326) [kafka-manager.kafka-manager-1.3.3.16-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.BrokerViewCacheActor$$anonfun$kafka$manager$actor$cluster$BrokerViewCacheActor$$updateTopicMetrics$1$$anonfun$apply$24$$anonfun$apply$25$$anonfun$apply$2.apply(BrokerViewCacheActor.scala:323) [kafka-manager.kafka-manager-1.3.3.16-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.BrokerViewCacheActor$$anonfun$kafka$manager$actor$cluster$BrokerViewCacheActor$$updateTopicMetrics$1$$anonfun$apply$24$$anonfun$apply$25$$anonfun$apply$2.apply(BrokerViewCacheActor.scala:323) [kafka-manager.kafka-manager-1.3.3.16-sans-externalized.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) [org.scala-lang.scala-library-2.11.8.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) [org.scala-lang.scala-library-2.11.8.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_161]
+[[31merror[0m] k.m.j.KafkaJMX$ - Failed to connect to service:jmx:rmi:///jndi/rmi://172.52.110.28:-1/jmxrmi
+java.lang.IllegalArgumentException: requirement failed: No jmx port but jmx polling enabled!
+	at scala.Predef$.require(Predef.scala:224) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.jmx.KafkaJMX$.doWithConnection(KafkaJMX.scala:39) ~[kafka-manager.kafka-manager-1.3.3.16-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.BrokerViewCacheActor$$anonfun$kafka$manager$actor$cluster$BrokerViewCacheActor$$updateBrokerMetrics$1$$anonfun$apply$27$$anonfun$apply$3.apply$mcV$sp(BrokerViewCacheActor.scala:358) [kafka-manager.kafka-manager-1.3.3.16-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.BrokerViewCacheActor$$anonfun$kafka$manager$actor$cluster$BrokerViewCacheActor$$updateBrokerMetrics$1$$anonfun$apply$27$$anonfun$apply$3.apply(BrokerViewCacheActor.scala:355) [kafka-manager.kafka-manager-1.3.3.16-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.BrokerViewCacheActor$$anonfun$kafka$manager$actor$cluster$BrokerViewCacheActor$$updateBrokerMetrics$1$$anonfun$apply$27$$anonfun$apply$3.apply(BrokerViewCacheActor.scala:355) [kafka-manager.kafka-manager-1.3.3.16-sans-externalized.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) [org.scala-lang.scala-library-2.11.8.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) [org.scala-lang.scala-library-2.11.8.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_161]
+[[31merror[0m] k.m.a.c.BrokerViewCacheActor - Failed to get topic metrics for broker BrokerIdentity(0,172.52.110.25,-1,false,true,Map(PLAINTEXT -> 9092))
+java.lang.IllegalArgumentException: requirement failed: No jmx port but jmx polling enabled!
+	at scala.Predef$.require(Predef.scala:224) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.jmx.KafkaJMX$.doWithConnection(KafkaJMX.scala:39) ~[kafka-manager.kafka-manager-1.3.3.16-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.BrokerViewCacheActor$$anonfun$kafka$manager$actor$cluster$BrokerViewCacheActor$$updateTopicMetrics$1$$anonfun$apply$24$$anonfun$apply$25$$anonfun$apply$2.apply$mcV$sp(BrokerViewCacheActor.scala:326) ~[kafka-manager.kafka-manager-1.3.3.16-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.BrokerViewCacheActor$$anonfun$kafka$manager$actor$cluster$BrokerViewCacheActor$$updateTopicMetrics$1$$anonfun$apply$24$$anonfun$apply$25$$anonfun$apply$2.apply(BrokerViewCacheActor.scala:323) ~[kafka-manager.kafka-manager-1.3.3.16-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.BrokerViewCacheActor$$anonfun$kafka$manager$actor$cluster$BrokerViewCacheActor$$updateTopicMetrics$1$$anonfun$apply$24$$anonfun$apply$25$$anonfun$apply$2.apply(BrokerViewCacheActor.scala:323) ~[kafka-manager.kafka-manager-1.3.3.16-sans-externalized.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_161]
+[[31merror[0m] k.m.a.c.BrokerViewCacheActor - Failed to get broker metrics for BrokerIdentity(1,172.52.110.28,-1,false,true,Map(PLAINTEXT -> 9092))
+java.lang.IllegalArgumentException: requirement failed: No jmx port but jmx polling enabled!
+	at scala.Predef$.require(Predef.scala:224) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.jmx.KafkaJMX$.doWithConnection(KafkaJMX.scala:39) ~[kafka-manager.kafka-manager-1.3.3.16-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.BrokerViewCacheActor$$anonfun$kafka$manager$actor$cluster$BrokerViewCacheActor$$updateBrokerMetrics$1$$anonfun$apply$27$$anonfun$apply$3.apply$mcV$sp(BrokerViewCacheActor.scala:358) ~[kafka-manager.kafka-manager-1.3.3.16-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.BrokerViewCacheActor$$anonfun$kafka$manager$actor$cluster$BrokerViewCacheActor$$updateBrokerMetrics$1$$anonfun$apply$27$$anonfun$apply$3.apply(BrokerViewCacheActor.scala:355) ~[kafka-manager.kafka-manager-1.3.3.16-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.BrokerViewCacheActor$$anonfun$kafka$manager$actor$cluster$BrokerViewCacheActor$$updateBrokerMetrics$1$$anonfun$apply$27$$anonfun$apply$3.apply(BrokerViewCacheActor.scala:355) ~[kafka-manager.kafka-manager-1.3.3.16-sans-externalized.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_161]
+[[31merror[0m] k.m.a.c.BrokerViewCacheActor - Failed to get broker metrics for BrokerIdentity(0,172.52.110.25,-1,false,true,Map(PLAINTEXT -> 9092))
+java.lang.IllegalArgumentException: requirement failed: No jmx port but jmx polling enabled!
+	at scala.Predef$.require(Predef.scala:224) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.jmx.KafkaJMX$.doWithConnection(KafkaJMX.scala:39) ~[kafka-manager.kafka-manager-1.3.3.16-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.BrokerViewCacheActor$$anonfun$kafka$manager$actor$cluster$BrokerViewCacheActor$$updateBrokerMetrics$1$$anonfun$apply$27$$anonfun$apply$3.apply$mcV$sp(BrokerViewCacheActor.scala:358) ~[kafka-manager.kafka-manager-1.3.3.16-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.BrokerViewCacheActor$$anonfun$kafka$manager$actor$cluster$BrokerViewCacheActor$$updateBrokerMetrics$1$$anonfun$apply$27$$anonfun$apply$3.apply(BrokerViewCacheActor.scala:355) ~[kafka-manager.kafka-manager-1.3.3.16-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.BrokerViewCacheActor$$anonfun$kafka$manager$actor$cluster$BrokerViewCacheActor$$updateBrokerMetrics$1$$anonfun$apply$27$$anonfun$apply$3.apply(BrokerViewCacheActor.scala:355) ~[kafka-manager.kafka-manager-1.3.3.16-sans-externalized.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_161]
+[[31merror[0m] k.m.j.KafkaJMX$ - Failed to connect to service:jmx:rmi:///jndi/rmi://172.52.110.28:-1/jmxrmi
+java.lang.IllegalArgumentException: requirement failed: No jmx port but jmx polling enabled!
+	at scala.Predef$.require(Predef.scala:224) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.jmx.KafkaJMX$.doWithConnection(KafkaJMX.scala:39) ~[kafka-manager.kafka-manager-1.3.3.16-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.BrokerViewCacheActor$$anonfun$kafka$manager$actor$cluster$BrokerViewCacheActor$$updateBrokerTopicPartitionsSize$1$$anonfun$apply$29$$anonfun$apply$4.apply$mcV$sp(BrokerViewCacheActor.scala:382) [kafka-manager.kafka-manager-1.3.3.16-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.BrokerViewCacheActor$$anonfun$kafka$manager$actor$cluster$BrokerViewCacheActor$$updateBrokerTopicPartitionsSize$1$$anonfun$apply$29$$anonfun$apply$4.apply(BrokerViewCacheActor.scala:379) [kafka-manager.kafka-manager-1.3.3.16-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.BrokerViewCacheActor$$anonfun$kafka$manager$actor$cluster$BrokerViewCacheActor$$updateBrokerTopicPartitionsSize$1$$anonfun$apply$29$$anonfun$apply$4.apply(BrokerViewCacheActor.scala:379) [kafka-manager.kafka-manager-1.3.3.16-sans-externalized.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) [org.scala-lang.scala-library-2.11.8.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) [org.scala-lang.scala-library-2.11.8.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_161]
+[[31merror[0m] k.m.j.KafkaJMX$ - Failed to connect to service:jmx:rmi:///jndi/rmi://172.52.110.25:-1/jmxrmi
+java.lang.IllegalArgumentException: requirement failed: No jmx port but jmx polling enabled!
+	at scala.Predef$.require(Predef.scala:224) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.jmx.KafkaJMX$.doWithConnection(KafkaJMX.scala:39) ~[kafka-manager.kafka-manager-1.3.3.16-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.BrokerViewCacheActor$$anonfun$kafka$manager$actor$cluster$BrokerViewCacheActor$$updateBrokerTopicPartitionsSize$1$$anonfun$apply$29$$anonfun$apply$4.apply$mcV$sp(BrokerViewCacheActor.scala:382) [kafka-manager.kafka-manager-1.3.3.16-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.BrokerViewCacheActor$$anonfun$kafka$manager$actor$cluster$BrokerViewCacheActor$$updateBrokerTopicPartitionsSize$1$$anonfun$apply$29$$anonfun$apply$4.apply(BrokerViewCacheActor.scala:379) [kafka-manager.kafka-manager-1.3.3.16-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.BrokerViewCacheActor$$anonfun$kafka$manager$actor$cluster$BrokerViewCacheActor$$updateBrokerTopicPartitionsSize$1$$anonfun$apply$29$$anonfun$apply$4.apply(BrokerViewCacheActor.scala:379) [kafka-manager.kafka-manager-1.3.3.16-sans-externalized.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) [org.scala-lang.scala-library-2.11.8.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) [org.scala-lang.scala-library-2.11.8.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_161]
+[[31merror[0m] k.m.a.c.BrokerViewCacheActor - Failed to get topic metrics for broker BrokerIdentity(1,172.52.110.28,-1,false,true,Map(PLAINTEXT -> 9092))
+java.lang.IllegalArgumentException: requirement failed: No jmx port but jmx polling enabled!
+	at scala.Predef$.require(Predef.scala:224) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.jmx.KafkaJMX$.doWithConnection(KafkaJMX.scala:39) ~[kafka-manager.kafka-manager-1.3.3.16-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.BrokerViewCacheActor$$anonfun$kafka$manager$actor$cluster$BrokerViewCacheActor$$updateTopicMetrics$1$$anonfun$apply$24$$anonfun$apply$25$$anonfun$apply$2.apply$mcV$sp(BrokerViewCacheActor.scala:326) ~[kafka-manager.kafka-manager-1.3.3.16-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.BrokerViewCacheActor$$anonfun$kafka$manager$actor$cluster$BrokerViewCacheActor$$updateTopicMetrics$1$$anonfun$apply$24$$anonfun$apply$25$$anonfun$apply$2.apply(BrokerViewCacheActor.scala:323) ~[kafka-manager.kafka-manager-1.3.3.16-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.BrokerViewCacheActor$$anonfun$kafka$manager$actor$cluster$BrokerViewCacheActor$$updateTopicMetrics$1$$anonfun$apply$24$$anonfun$apply$25$$anonfun$apply$2.apply(BrokerViewCacheActor.scala:323) ~[kafka-manager.kafka-manager-1.3.3.16-sans-externalized.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_161]
+[[31merror[0m] k.m.a.c.BrokerViewCacheActor - Failed to get broker topic segment metrics for BrokerIdentity(1,172.52.110.28,-1,false,true,Map(PLAINTEXT -> 9092))
+java.lang.IllegalArgumentException: requirement failed: No jmx port but jmx polling enabled!
+	at scala.Predef$.require(Predef.scala:224) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.jmx.KafkaJMX$.doWithConnection(KafkaJMX.scala:39) ~[kafka-manager.kafka-manager-1.3.3.16-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.BrokerViewCacheActor$$anonfun$kafka$manager$actor$cluster$BrokerViewCacheActor$$updateBrokerTopicPartitionsSize$1$$anonfun$apply$29$$anonfun$apply$4.apply$mcV$sp(BrokerViewCacheActor.scala:382) ~[kafka-manager.kafka-manager-1.3.3.16-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.BrokerViewCacheActor$$anonfun$kafka$manager$actor$cluster$BrokerViewCacheActor$$updateBrokerTopicPartitionsSize$1$$anonfun$apply$29$$anonfun$apply$4.apply(BrokerViewCacheActor.scala:379) ~[kafka-manager.kafka-manager-1.3.3.16-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.BrokerViewCacheActor$$anonfun$kafka$manager$actor$cluster$BrokerViewCacheActor$$updateBrokerTopicPartitionsSize$1$$anonfun$apply$29$$anonfun$apply$4.apply(BrokerViewCacheActor.scala:379) ~[kafka-manager.kafka-manager-1.3.3.16-sans-externalized.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_161]
+[[31merror[0m] k.m.a.c.BrokerViewCacheActor - Failed to get broker topic segment metrics for BrokerIdentity(0,172.52.110.25,-1,false,true,Map(PLAINTEXT -> 9092))
+java.lang.IllegalArgumentException: requirement failed: No jmx port but jmx polling enabled!
+	at scala.Predef$.require(Predef.scala:224) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.jmx.KafkaJMX$.doWithConnection(KafkaJMX.scala:39) ~[kafka-manager.kafka-manager-1.3.3.16-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.BrokerViewCacheActor$$anonfun$kafka$manager$actor$cluster$BrokerViewCacheActor$$updateBrokerTopicPartitionsSize$1$$anonfun$apply$29$$anonfun$apply$4.apply$mcV$sp(BrokerViewCacheActor.scala:382) ~[kafka-manager.kafka-manager-1.3.3.16-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.BrokerViewCacheActor$$anonfun$kafka$manager$actor$cluster$BrokerViewCacheActor$$updateBrokerTopicPartitionsSize$1$$anonfun$apply$29$$anonfun$apply$4.apply(BrokerViewCacheActor.scala:379) ~[kafka-manager.kafka-manager-1.3.3.16-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.BrokerViewCacheActor$$anonfun$kafka$manager$actor$cluster$BrokerViewCacheActor$$updateBrokerTopicPartitionsSize$1$$anonfun$apply$29$$anonfun$apply$4.apply(BrokerViewCacheActor.scala:379) ~[kafka-manager.kafka-manager-1.3.3.16-sans-externalized.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[org.scala-lang.scala-library-2.11.8.jar:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[na:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[na:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_161]
+[[37minfo[0m] k.m.a.KafkaManagerActor - Updating internal state...

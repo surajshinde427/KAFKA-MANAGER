@@ -1,0 +1,121 @@
+Hit:1 http://ppa.launchpad.net/gnome-terminator/ppa/ubuntu xenial InRelease
+Hit:2 http://in.archive.ubuntu.com/ubuntu xenial InRelease
+Hit:3 http://archive.canonical.com/ubuntu wily InRelease
+Get:4 http://security.ubuntu.com/ubuntu xenial-security InRelease [107 kB]
+Get:6 http://in.archive.ubuntu.com/ubuntu xenial-backports InRelease [107 kB]
+Ign:7 http://ppa.launchpad.net/jonls/redshift-ppa/ubuntu xenial InRelease
+Ign:8 http://dl.google.com/linux/chrome/deb stable InRelease
+Ign:9 http://ppa.launchpad.net/rabbitvcs/ppa/ubuntu xenial InRelease
+Get:5 http://in.archive.ubuntu.com/ubuntu xenial-updates InRelease [109 kB]
+Hit:10 http://dl.google.com/linux/chrome/deb stable Release
+Hit:11 http://ppa.launchpad.net/slgobinath/safeeyes/ubuntu xenial InRelease
+Get:12 http://security.ubuntu.com/ubuntu xenial-security/main amd64 DEP-11 Metadata [67.5 kB]
+Get:14 http://in.archive.ubuntu.com/ubuntu xenial-backports/main amd64 DEP-11 Metadata [3,328 B]
+Get:15 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe amd64 DEP-11 Metadata [5,092 B]
+Get:16 http://security.ubuntu.com/ubuntu xenial-security/main DEP-11 64x64 Icons [68.0 kB]
+Ign:17 https://dl.bintray.com/sbt/debian  InRelease
+Get:18 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 DEP-11 Metadata [107 kB]
+Get:19 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages [775 kB]
+Get:20 http://security.ubuntu.com/ubuntu xenial-security/universe DEP-11 64x64 Icons [142 kB]
+Get:21 https://dl.bintray.com/sbt/debian  Release [815 B]
+Get:22 http://in.archive.ubuntu.com/ubuntu xenial-updates/main i386 Packages [713 kB]
+Get:23 https://dl.bintray.com/sbt/debian  Release.gpg [821 B]
+Hit:24 http://ppa.launchpad.net/webupd8team/java/ubuntu xenial InRelease
+Get:25 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 DEP-11 Metadata [318 kB]
+Ign:26 http://ppa.launchpad.net/jonls/redshift-ppa/ubuntu xenial Release
+Get:27 http://in.archive.ubuntu.com/ubuntu xenial-updates/main DEP-11 64x64 Icons [221 kB]
+Get:28 https://dl.bintray.com/sbt/debian  Packages [2,817 B]
+Get:29 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 Packages [626 kB]
+Ign:30 http://ppa.launchpad.net/rabbitvcs/ppa/ubuntu xenial Release
+Get:31 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe i386 Packages [576 kB]
+Ign:32 http://ppa.launchpad.net/jonls/redshift-ppa/ubuntu xenial/main amd64 Packages
+Ign:33 http://ppa.launchpad.net/jonls/redshift-ppa/ubuntu xenial/main i386 Packages
+Get:34 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 DEP-11 Metadata [246 kB]
+Get:35 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe DEP-11 64x64 Icons [331 kB]
+Ign:36 http://ppa.launchpad.net/jonls/redshift-ppa/ubuntu xenial/main all Packages
+Get:37 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 Packages [16.4 kB]
+Get:38 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse i386 Packages [15.5 kB]
+Get:39 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 DEP-11 Metadata [5,964 B]
+Ign:40 http://ppa.launchpad.net/jonls/redshift-ppa/ubuntu xenial/main Translation-en_IN
+Ign:41 http://ppa.launchpad.net/jonls/redshift-ppa/ubuntu xenial/main Translation-en
+Ign:42 http://ppa.launchpad.net/jonls/redshift-ppa/ubuntu xenial/main amd64 DEP-11 Metadata
+Ign:43 http://ppa.launchpad.net/jonls/redshift-ppa/ubuntu xenial/main DEP-11 64x64 Icons
+Ign:44 http://ppa.launchpad.net/rabbitvcs/ppa/ubuntu xenial/main amd64 Packages
+Ign:45 http://ppa.launchpad.net/rabbitvcs/ppa/ubuntu xenial/main i386 Packages
+Ign:46 http://ppa.launchpad.net/rabbitvcs/ppa/ubuntu xenial/main all Packages
+Ign:47 http://ppa.launchpad.net/rabbitvcs/ppa/ubuntu xenial/main Translation-en_IN
+Ign:48 http://ppa.launchpad.net/rabbitvcs/ppa/ubuntu xenial/main Translation-en
+Ign:49 http://ppa.launchpad.net/rabbitvcs/ppa/ubuntu xenial/main amd64 DEP-11 Metadata
+Ign:50 http://ppa.launchpad.net/rabbitvcs/ppa/ubuntu xenial/main DEP-11 64x64 Icons
+Ign:32 http://ppa.launchpad.net/jonls/redshift-ppa/ubuntu xenial/main amd64 Packages
+Ign:33 http://ppa.launchpad.net/jonls/redshift-ppa/ubuntu xenial/main i386 Packages
+Ign:36 http://ppa.launchpad.net/jonls/redshift-ppa/ubuntu xenial/main all Packages
+Ign:40 http://ppa.launchpad.net/jonls/redshift-ppa/ubuntu xenial/main Translation-en_IN
+Ign:41 http://ppa.launchpad.net/jonls/redshift-ppa/ubuntu xenial/main Translation-en
+Ign:42 http://ppa.launchpad.net/jonls/redshift-ppa/ubuntu xenial/main amd64 DEP-11 Metadata
+Ign:43 http://ppa.launchpad.net/jonls/redshift-ppa/ubuntu xenial/main DEP-11 64x64 Icons
+Ign:44 http://ppa.launchpad.net/rabbitvcs/ppa/ubuntu xenial/main amd64 Packages
+Ign:45 http://ppa.launchpad.net/rabbitvcs/ppa/ubuntu xenial/main i386 Packages
+Ign:46 http://ppa.launchpad.net/rabbitvcs/ppa/ubuntu xenial/main all Packages
+Ign:47 http://ppa.launchpad.net/rabbitvcs/ppa/ubuntu xenial/main Translation-en_IN
+Ign:48 http://ppa.launchpad.net/rabbitvcs/ppa/ubuntu xenial/main Translation-en
+Ign:49 http://ppa.launchpad.net/rabbitvcs/ppa/ubuntu xenial/main amd64 DEP-11 Metadata
+Ign:50 http://ppa.launchpad.net/rabbitvcs/ppa/ubuntu xenial/main DEP-11 64x64 Icons
+Ign:32 http://ppa.launchpad.net/jonls/redshift-ppa/ubuntu xenial/main amd64 Packages
+Ign:33 http://ppa.launchpad.net/jonls/redshift-ppa/ubuntu xenial/main i386 Packages
+Ign:36 http://ppa.launchpad.net/jonls/redshift-ppa/ubuntu xenial/main all Packages
+Ign:40 http://ppa.launchpad.net/jonls/redshift-ppa/ubuntu xenial/main Translation-en_IN
+Ign:41 http://ppa.launchpad.net/jonls/redshift-ppa/ubuntu xenial/main Translation-en
+Ign:42 http://ppa.launchpad.net/jonls/redshift-ppa/ubuntu xenial/main amd64 DEP-11 Metadata
+Ign:43 http://ppa.launchpad.net/jonls/redshift-ppa/ubuntu xenial/main DEP-11 64x64 Icons
+Ign:44 http://ppa.launchpad.net/rabbitvcs/ppa/ubuntu xenial/main amd64 Packages
+Ign:45 http://ppa.launchpad.net/rabbitvcs/ppa/ubuntu xenial/main i386 Packages
+Ign:46 http://ppa.launchpad.net/rabbitvcs/ppa/ubuntu xenial/main all Packages
+Ign:47 http://ppa.launchpad.net/rabbitvcs/ppa/ubuntu xenial/main Translation-en_IN
+Ign:48 http://ppa.launchpad.net/rabbitvcs/ppa/ubuntu xenial/main Translation-en
+Ign:49 http://ppa.launchpad.net/rabbitvcs/ppa/ubuntu xenial/main amd64 DEP-11 Metadata
+Ign:50 http://ppa.launchpad.net/rabbitvcs/ppa/ubuntu xenial/main DEP-11 64x64 Icons
+Ign:32 http://ppa.launchpad.net/jonls/redshift-ppa/ubuntu xenial/main amd64 Packages
+Ign:33 http://ppa.launchpad.net/jonls/redshift-ppa/ubuntu xenial/main i386 Packages
+Ign:36 http://ppa.launchpad.net/jonls/redshift-ppa/ubuntu xenial/main all Packages
+Ign:40 http://ppa.launchpad.net/jonls/redshift-ppa/ubuntu xenial/main Translation-en_IN
+Ign:41 http://ppa.launchpad.net/jonls/redshift-ppa/ubuntu xenial/main Translation-en
+Ign:42 http://ppa.launchpad.net/jonls/redshift-ppa/ubuntu xenial/main amd64 DEP-11 Metadata
+Ign:43 http://ppa.launchpad.net/jonls/redshift-ppa/ubuntu xenial/main DEP-11 64x64 Icons
+Ign:44 http://ppa.launchpad.net/rabbitvcs/ppa/ubuntu xenial/main amd64 Packages
+Ign:45 http://ppa.launchpad.net/rabbitvcs/ppa/ubuntu xenial/main i386 Packages
+Ign:46 http://ppa.launchpad.net/rabbitvcs/ppa/ubuntu xenial/main all Packages
+Ign:47 http://ppa.launchpad.net/rabbitvcs/ppa/ubuntu xenial/main Translation-en_IN
+Ign:48 http://ppa.launchpad.net/rabbitvcs/ppa/ubuntu xenial/main Translation-en
+Ign:49 http://ppa.launchpad.net/rabbitvcs/ppa/ubuntu xenial/main amd64 DEP-11 Metadata
+Ign:50 http://ppa.launchpad.net/rabbitvcs/ppa/ubuntu xenial/main DEP-11 64x64 Icons
+Ign:32 http://ppa.launchpad.net/jonls/redshift-ppa/ubuntu xenial/main amd64 Packages
+Ign:33 http://ppa.launchpad.net/jonls/redshift-ppa/ubuntu xenial/main i386 Packages
+Ign:36 http://ppa.launchpad.net/jonls/redshift-ppa/ubuntu xenial/main all Packages
+Ign:40 http://ppa.launchpad.net/jonls/redshift-ppa/ubuntu xenial/main Translation-en_IN
+Ign:41 http://ppa.launchpad.net/jonls/redshift-ppa/ubuntu xenial/main Translation-en
+Ign:42 http://ppa.launchpad.net/jonls/redshift-ppa/ubuntu xenial/main amd64 DEP-11 Metadata
+Ign:43 http://ppa.launchpad.net/jonls/redshift-ppa/ubuntu xenial/main DEP-11 64x64 Icons
+Ign:44 http://ppa.launchpad.net/rabbitvcs/ppa/ubuntu xenial/main amd64 Packages
+Ign:45 http://ppa.launchpad.net/rabbitvcs/ppa/ubuntu xenial/main i386 Packages
+Ign:46 http://ppa.launchpad.net/rabbitvcs/ppa/ubuntu xenial/main all Packages
+Ign:47 http://ppa.launchpad.net/rabbitvcs/ppa/ubuntu xenial/main Translation-en_IN
+Ign:48 http://ppa.launchpad.net/rabbitvcs/ppa/ubuntu xenial/main Translation-en
+Ign:49 http://ppa.launchpad.net/rabbitvcs/ppa/ubuntu xenial/main amd64 DEP-11 Metadata
+Ign:50 http://ppa.launchpad.net/rabbitvcs/ppa/ubuntu xenial/main DEP-11 64x64 Icons
+Err:32 http://ppa.launchpad.net/jonls/redshift-ppa/ubuntu xenial/main amd64 Packages
+  404  Not Found
+Ign:33 http://ppa.launchpad.net/jonls/redshift-ppa/ubuntu xenial/main i386 Packages
+Ign:36 http://ppa.launchpad.net/jonls/redshift-ppa/ubuntu xenial/main all Packages
+Ign:40 http://ppa.launchpad.net/jonls/redshift-ppa/ubuntu xenial/main Translation-en_IN
+Ign:41 http://ppa.launchpad.net/jonls/redshift-ppa/ubuntu xenial/main Translation-en
+Ign:42 http://ppa.launchpad.net/jonls/redshift-ppa/ubuntu xenial/main amd64 DEP-11 Metadata
+Ign:43 http://ppa.launchpad.net/jonls/redshift-ppa/ubuntu xenial/main DEP-11 64x64 Icons
+Err:44 http://ppa.launchpad.net/rabbitvcs/ppa/ubuntu xenial/main amd64 Packages
+  404  Not Found
+Ign:45 http://ppa.launchpad.net/rabbitvcs/ppa/ubuntu xenial/main i386 Packages
+Ign:46 http://ppa.launchpad.net/rabbitvcs/ppa/ubuntu xenial/main all Packages
+Ign:47 http://ppa.launchpad.net/rabbitvcs/ppa/ubuntu xenial/main Translation-en_IN
+Ign:48 http://ppa.launchpad.net/rabbitvcs/ppa/ubuntu xenial/main Translation-en
+Ign:49 http://ppa.launchpad.net/rabbitvcs/ppa/ubuntu xenial/main amd64 DEP-11 Metadata
+Ign:50 http://ppa.launchpad.net/rabbitvcs/ppa/ubuntu xenial/main DEP-11 64x64 Icons

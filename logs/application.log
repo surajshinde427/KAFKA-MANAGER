@@ -1,0 +1,6 @@
+2018-02-19 20:05:13,871 - [INFO] - from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-4 
+Slf4jLogger started
+
+2018-02-19 20:10:08,732 - [INFO] - from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-3 
+Slf4jLogger started
+
